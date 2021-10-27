@@ -1,0 +1,12 @@
+{
+  "name": "cypress-conduit",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "crypto-js": "^4.1.1",
+    "cypress": "^8.6.0",
+    "mongoose": "^6.0.12"
+  },
+  "dependencies": {},
+  "scripts": {}
+}
