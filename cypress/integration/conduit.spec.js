@@ -6,7 +6,7 @@ describe('Conduit Test', function () {
         const password = 'qwerty';
 
         after("Clean up", function () {
-            cy.task('dropDB');
+            cy.exec('mongo conduit --eval "db.dropDatabase()"');
         });
 
         describe('Registration', function () {
